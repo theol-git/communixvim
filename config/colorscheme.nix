@@ -1,8 +1,9 @@
 {
   colorschemes = {
     rose-pine = {
-      enable = false;
+      enable = true;
       settings = {
+        enable.terminal = true;
         styles = {
           italic = true;
           bold = true;

@@ -2,9 +2,7 @@
   plugins = {
     cmp-nvim-lsp = {enable = true;}; # lsp
     cmp-buffer = {enable = true;};
-    copilot-cmp = {enable = true;}; # copilot suggestions
     cmp-path = {enable = true;}; # file system paths
-    cmp_luasnip = {enable = true;}; # snippets
     cmp-cmdline = {enable = false;}; # autocomplete for cmdline
     cmp = {
       enable = true;
@@ -34,16 +32,11 @@
             })
           '';
         };
-        snippet = {
-          expand = "function(args) require('luasnip').lsp_expand(args.body) end";
-        };
         sources = {
           __raw = ''
             cmp.config.sources({
               {name = 'nvim_lsp'},
-              {name = 'copilot'},
               {name = 'path'},
-              {name = 'luasnip'},
               {name = 'cmdline'},
               }, {
             {name = 'buffer'},
@@ -72,7 +65,6 @@
     };
   };
   extraConfigLua = ''
-      luasnip = require("luasnip")
       kind_icons = {
         Text = "󰊄",
         Method = "",

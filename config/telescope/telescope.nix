@@ -69,10 +69,6 @@
         action = "git_commits";
         options.desc = "Commits";
       };
-      "<leader>gs" = {
-        action = "git_status";
-        options.desc = "Status";
-      };
       "<leader>sa" = {
         action = "autocommands";
         options.desc = "Auto Commands";
