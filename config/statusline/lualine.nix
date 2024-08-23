@@ -4,7 +4,7 @@
     alwaysDivideMiddle = true;
     globalstatus = true;
     extensions = ["fzf"];
-    theme = "tokionight";
+    theme = "rose-pine";
     componentSeparators = {
       left = "|";
       right = "|";

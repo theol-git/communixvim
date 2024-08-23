@@ -1,4 +1,9 @@
-{ pkgs, lib, config, ... }: {
+{
+  pkgs,
+  lib,
+  config,
+  ...
+}: {
   config = {
     opts = {
       # Enable relative line numbers
@@ -58,7 +63,7 @@
       encoding = "utf-8";
       fileencoding = "utf-8";
 
-      # OPTIONS UNDER THIS SHOULD BE RECHECKED 
+      # OPTIONS UNDER THIS SHOULD BE RECHECKED
       # More space in the neovim command line for displaying messages
       cmdheight = 2;
 
