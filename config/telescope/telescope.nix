@@ -33,13 +33,13 @@
       };
     };
     keymaps = {
-      "<leader><space>" = {
+      "<leader>pf" = {
         action = "find_files";
         options.desc = "Find project files";
       };
-      "<leader>/" = {
+      "<leader>ps" = {
         action = "live_grep";
-        options.desc = "Grep (root dir)";
+        options.desc = "Search project file (grep root dit)";
       };
       "<leader>:" = {
         action = "command_history";
