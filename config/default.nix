@@ -30,8 +30,6 @@
 
     ./pluginmanagers/lazy.nix
 
-    ./statusline/lualine.nix
-
     ./ui/nui.nix
 
     ./telescope/telescope.nix
