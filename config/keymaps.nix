@@ -2,6 +2,16 @@
   globals.mapleader = " ";
 
   keymaps = [
+    # Exit to file explorer
+    {
+      mode = ["n"];
+      key = "<leader>pv";
+      action = "<cmd>Explore<cr>";
+      options = {
+        silent = true;
+        desc = "Exit to netrw";
+      };
+    }
     # Disable arrow keys
     {
       mode = ["n" "i"];
