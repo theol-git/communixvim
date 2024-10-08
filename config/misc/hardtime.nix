@@ -1,6 +1,8 @@
 {
   plugins.hardtime = {
     enable = true;
-    disabledFiletypes = ["qf" "netrw" "NvimTree" "fugitive"];
+    settings = {
+      disabled_filetypes = [ "qf" "netrw" "NvimTree" "fugitive" ];
+    };
   };
 }

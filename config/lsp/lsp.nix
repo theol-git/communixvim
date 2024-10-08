@@ -25,7 +25,7 @@
           };
         };
         nil-ls = {enable = true;};
-        tsserver = {
+        ts-ls = {
           enable = false;
           filetypes = ["javascript" "javascriptreact" "typescript" "typescriptreact"];
           extraOptions = {
