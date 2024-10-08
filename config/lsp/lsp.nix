@@ -58,6 +58,7 @@
         eslint = {enable = true;};
         pyright = {enable = true;};
         ruff-lsp = {enable = true;};
+        bashls = {enable = true;};
 
         rust-analyzer = {
           enable = true;
