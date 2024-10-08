@@ -49,17 +49,13 @@
         action = "buffers";
         options.desc = "+buffer";
       };
-      "<leader>ff" = {
-        action = "find_files";
-        options.desc = "Find project files";
-      };
-      "<leader>fr" = {
+      "<leader>pfr" = {
         action = "oldfiles";
         options.desc = "Recent";
       };
-      "<leader>fb" = {
+      "<leader>vb" = {
         action = "buffers";
-        options.desc = "Buffers";
+        options.desc = "View buffers";
       };
       "<C-p>" = {
         action = "git_files";
@@ -126,15 +122,6 @@
   keymaps = [
     {
       mode = "n";
-      key = "<leader>fp";
-      action = "<cmd>Telescope projects<CR>";
-      options = {
-        desc = "Projects";
-      };
-    }
-
-    {
-      mode = "n";
       key = "<leader>sd";
       action = "<cmd>Telescope diagnostics bufnr=0<cr>";
       options = {
@@ -151,16 +138,8 @@
         desc = "Todo (Telescope)";
       };
     }
-
-    # {
-    #   mode = "n";
-    #   key = "<leader>,";
-    #   action = "<cmd>Telescope buffers sort_mru=true sort_lastused=true<cr>";
-    #   options = {
-    #     desc = "Switch Buffer";
-    #   };
-    # }
   ];
+
   extraConfigLua = ''
     local telescope = require('telescope')
     telescope.setup{

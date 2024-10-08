@@ -52,12 +52,6 @@
 
         # General maps
         {
-          __unkeyed-1 = "<leader>f";
-          mode = "n";
-          group = "+find/file";
-        }
-
-        {
           __unkeyed-1 = "<leader>s";
           mode = "n";
           group = "+search";
