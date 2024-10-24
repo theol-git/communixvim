@@ -17,6 +17,7 @@
         markdown = [["prettierd" "prettier"]];
         rust = ["rustfmt"];
         bash = ["shfmt"];
+        go = [["goimports" "gofmt"]];
       };
     };
   };
@@ -27,7 +28,7 @@
       key = "<leader>uf";
       action = ":FormatToggle<CR>";
       options = {
-        desc = "Toggle Format";
+        desc = "Toggle Format on save.";
         silent = true;
       };
     }
