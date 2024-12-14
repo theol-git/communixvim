@@ -23,7 +23,7 @@
     ./lsp/trouble.nix
     ./lsp/cmp.nix
 
-    ./pluginmanagers/lazy.nix
+    ./pluginmanagers/lazy-nvim.nix
 
     ./ui/nui.nix
 
