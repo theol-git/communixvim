@@ -57,10 +57,10 @@
         };
         eslint = {enable = true;};
         pyright = {enable = true;};
-        ruff-lsp = {enable = true;};
+        ruff_lsp = {enable = true;};
         bashls = {enable = true;};
 
-        rust-analyzer = {
+        rust_analyzer = {
           enable = true;
           installCargo = true;
           installRustc = true;
