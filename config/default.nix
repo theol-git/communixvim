@@ -38,7 +38,6 @@
     ./misc/persistence.nix
     ./misc/plenary.nix
     ./misc/todo-comments.nix
-    ./misc/toggleterm.nix
     ./misc/undotree.nix
     ./misc/whichkey.nix
   ];
