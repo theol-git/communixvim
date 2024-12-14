@@ -31,7 +31,6 @@
     ./misc/better-escape.nix
     ./misc/hardtime.nix
     ./misc/harpoon.nix
-    ./misc/illuminate.nix
     ./misc/markdown-preview.nix
     ./misc/mini.nix
     ./misc/neodev.nix
