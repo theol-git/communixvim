@@ -33,7 +33,6 @@
     ./misc/harpoon.nix
     ./misc/markdown-preview.nix
     ./misc/mini.nix
-    ./misc/neodev.nix
     ./misc/neotest.nix
     ./misc/nvim-colorizer.nix
     ./misc/persistence.nix
