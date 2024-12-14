@@ -33,8 +33,8 @@
     ./misc/harpoon.nix
     ./misc/markdown-preview.nix
     ./misc/mini.nix
-    ./misc/neotest.nix
     ./misc/nvim-colorizer.nix
+    ./misc/nvterm.nix
     ./misc/persistence.nix
     ./misc/plenary.nix
     ./misc/todo-comments.nix
