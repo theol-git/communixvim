@@ -6,8 +6,6 @@
 
     ./colorscheme.nix
 
-    ./dap/dap.nix
-
     ./git/gitsigns.nix
     ./git/diffview.nix
     ./git/fugitive.nix
