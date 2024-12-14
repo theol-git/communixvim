@@ -8,7 +8,7 @@
       capabilities = "offsetEncoding =  'utf-16'";
       servers = {
         clangd = {enable = true;};
-        lua-ls = {
+        lua_ls = {
           enable = true;
           extraOptions = {
             settings = {
@@ -24,8 +24,8 @@
             };
           };
         };
-        nil-ls = {enable = true;};
-        ts-ls = {
+        nil_ls = {enable = true;};
+        ts_ls = {
           enable = false;
           filetypes = ["javascript" "javascriptreact" "typescript" "typescriptreact"];
           extraOptions = {
