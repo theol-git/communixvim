@@ -10,7 +10,11 @@
           '';
         };
       };
-      cursorword = {};
+      cursorword = {
+        opts = {
+          delay = 100;
+        };
+      };
       icons = {};
     };
   };
