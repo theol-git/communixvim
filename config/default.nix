@@ -39,6 +39,6 @@
     ./misc/plenary.nix
     ./misc/todo-comments.nix
     ./misc/undotree.nix
-    ./misc/whichkey.nix
+    ./misc/which-key.nix
   ];
 }
