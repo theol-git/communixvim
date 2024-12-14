@@ -39,7 +39,7 @@
       };
       "<leader>ps" = {
         action = "live_grep";
-        options.desc = "Search project file (grep root dit)";
+        options.desc = "Search project file (grep root dir)";
       };
       "<leader>:" = {
         action = "command_history";
@@ -49,7 +49,7 @@
         action = "buffers";
         options.desc = "+buffer";
       };
-      "<leader>pfr" = {
+      "<leader>pr" = {
         action = "oldfiles";
         options.desc = "Recent";
       };
