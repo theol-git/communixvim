@@ -1,6 +1,5 @@
 - Setup neotest
 - Configure persistence
 - Check out project.nvim
-- Setup wakatime with wakapi (self hosted) https://github.com/muety/wakapi
 - Check if which-key has all bindings
-- setup wilder
+- setup rustacean.nvim
