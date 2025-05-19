@@ -40,5 +40,6 @@
     ./misc/todo-comments.nix
     ./misc/undotree.nix
     ./misc/which-key.nix
+    ./misc/wilder.nix
   ];
 }
