@@ -2,4 +2,4 @@
 - Configure persistence
 - Check out project.nvim
 - Check if which-key has all bindings
-- setup rustacean.nvim
+- check if rust-analyzer needs to be in fidget
