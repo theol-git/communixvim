@@ -3,3 +3,4 @@
 - Check out project.nvim
 - Check if which-key has all bindings
 - check if rust-analyzer needs to be in fidget
+- add ability to see the diagnostic on hover
