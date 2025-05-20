@@ -59,21 +59,6 @@
         pyright = {enable = true;};
         ruff = {enable = true;};
         bashls = {enable = true;};
-
-        rust_analyzer = {
-          enable = true;
-          installCargo = true;
-          installRustc = true;
-          settings = {
-            checkOnSave = true;
-            check = {
-              command = "clippy";
-            };
-            procMacro = {
-              enable = true;
-            };
-          };
-        };
       };
     };
   };
