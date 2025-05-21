@@ -36,6 +36,7 @@
     ./misc/nvim-colorizer.nix
     ./misc/nvterm.nix
     ./misc/persistence.nix
+    ./misc/precognition.nix
     ./misc/plenary.nix
     ./misc/todo-comments.nix
     ./misc/undotree.nix

@@ -4,3 +4,5 @@
 - Check if which-key has all bindings
 - check if rust-analyzer needs to be in fidget
 - add ability to see the diagnostic on hover
+- add way to easily disable precognition
+- fix Trouble keymaps
